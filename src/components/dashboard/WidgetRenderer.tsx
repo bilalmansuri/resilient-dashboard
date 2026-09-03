@@ -1,7 +1,10 @@
 import type { WidgetEnvelope } from '../../domain/dashboard.schema'
 import type { Region } from '../../domain/types'
 import { useWidgetData } from '../../hooks/useWidgetData'
-import { lookupWidget, registeredTypes, type PreparedWidget } from '../../widgets/registry'
+// Imported through the barrel so the registerWidget() calls in widgets/index.ts
+// have run before any lookup happens.
+import { lookupWidget, registeredTypes } from '../../widgets'
+import type { PreparedWidget } from '../../widgets/registry'
 import { WidgetError } from '../../widgets/WidgetError'
 import { WidgetLoading } from '../../widgets/WidgetLoading'
 import { WidgetCard } from './WidgetCard'
