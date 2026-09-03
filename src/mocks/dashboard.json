@@ -1,0 +1,30 @@
+{
+  "id": "dashboard-001",
+  "name": "Sales Dashboard",
+  "version": 1,
+  "filters": { "region": "India" },
+  "widgets": [
+    {
+      "id": "revenue",
+      "type": "kpi",
+      "title": "Total Revenue",
+      "dataSource": "sales",
+      "field": "revenue"
+    },
+    {
+      "id": "revenue-trend",
+      "type": "line-chart",
+      "title": "Revenue Trend",
+      "dataSource": "sales",
+      "xField": "date",
+      "yField": "revenue"
+    },
+    {
+      "id": "sales-table",
+      "type": "table",
+      "title": "Recent Sales",
+      "dataSource": "sales",
+      "fields": ["date", "customer", "region", "revenue"]
+    }
+  ]
+}

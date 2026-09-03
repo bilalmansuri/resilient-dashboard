@@ -1,0 +1,110 @@
+[
+  {
+    "date": "2026-08-25",
+    "customer": "Nimbus Labs",
+    "region": "India",
+    "revenue": 9403.13
+  },
+  {
+    "date": "2026-08-25",
+    "customer": "Vertex Retail",
+    "region": "USA",
+    "revenue": 17428.99
+  },
+  {
+    "date": "2026-08-26",
+    "customer": "TechWorld",
+    "region": "India",
+    "revenue": 11127.61
+  },
+  {
+    "date": "2026-08-26",
+    "customer": "Vertex Retail",
+    "region": "USA",
+    "revenue": 15444.37
+  },
+  {
+    "date": "2026-08-27",
+    "customer": "TechWorld",
+    "region": "India",
+    "revenue": 14561.58
+  },
+  {
+    "date": "2026-08-27",
+    "customer": "Beacon Systems",
+    "region": "USA",
+    "revenue": 19738.25
+  },
+  {
+    "date": "2026-08-28",
+    "customer": "TechWorld",
+    "region": "India",
+    "revenue": 16597.62
+  },
+  {
+    "date": "2026-08-28",
+    "customer": "Beacon Systems",
+    "region": "USA",
+    "revenue": 17647.18
+  },
+  {
+    "date": "2026-08-29",
+    "customer": "Acme Corp",
+    "region": "India",
+    "revenue": 11641.34
+  },
+  {
+    "date": "2026-08-29",
+    "customer": "Vertex Retail",
+    "region": "USA",
+    "revenue": 20167.77
+  },
+  {
+    "date": "2026-08-30",
+    "customer": "Acme Corp",
+    "region": "India",
+    "revenue": 14693.69
+  },
+  {
+    "date": "2026-08-30",
+    "customer": "Beacon Systems",
+    "region": "USA",
+    "revenue": 13628.88
+  },
+  {
+    "date": "2026-08-31",
+    "customer": "TechWorld",
+    "region": "India",
+    "revenue": 14918.61
+  },
+  {
+    "date": "2026-08-31",
+    "customer": "Global Corp",
+    "region": "USA",
+    "revenue": 12390.95
+  },
+  {
+    "date": "2026-09-01",
+    "customer": "Acme Corp",
+    "region": "India",
+    "revenue": 12500
+  },
+  {
+    "date": "2026-09-01",
+    "customer": "Global Corp",
+    "region": "USA",
+    "revenue": 15400
+  },
+  {
+    "date": "2026-09-02",
+    "customer": "TechWorld",
+    "region": "India",
+    "revenue": 18700
+  },
+  {
+    "date": "2026-09-03",
+    "customer": "Startup Inc",
+    "region": "India",
+    "revenue": 9200
+  }
+]

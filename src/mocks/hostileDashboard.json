@@ -1,0 +1,56 @@
+{
+  "id": "broken-dashboard",
+  "name": "Broken Dashboard",
+  "version": 1,
+  "filters": { "region": "All" },
+  "widgets": [
+    {
+      "id": "bad-widget",
+      "type": "unknown-widget",
+      "title": "Unknown Widget",
+      "dataSource": "sales"
+    },
+    {
+      "id": "missing-field",
+      "type": "kpi",
+      "title": "Missing Revenue",
+      "dataSource": "sales",
+      "field": "doesNotExist"
+    },
+    {
+      "id": "bad-source",
+      "type": "kpi",
+      "title": "Unknown Data Source",
+      "dataSource": "../../etc/passwd",
+      "field": "revenue"
+    },
+    {
+      "id": "wrong-type",
+      "type": "line-chart",
+      "title": "Text Plotted As A Number",
+      "dataSource": "sales",
+      "xField": "date",
+      "yField": "customer"
+    },
+    {
+      "id": "no-title",
+      "type": "kpi",
+      "dataSource": "sales",
+      "field": "revenue"
+    },
+    {
+      "id": "missing-field",
+      "type": "kpi",
+      "title": "Duplicate Id",
+      "dataSource": "sales",
+      "field": "revenue"
+    },
+    {
+      "id": "still-works",
+      "type": "table",
+      "title": "This Widget Still Works",
+      "dataSource": "sales",
+      "fields": ["date", "customer", "revenue"]
+    }
+  ]
+}
